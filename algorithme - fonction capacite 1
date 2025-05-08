@@ -1,0 +1,13 @@
+
+fonction capacite : permet de compter le nombre total de
+positions dans le conteneur (tableau) fourni en parametre
+
+
+DÉBUT
+ecrire capacite ( [3, ,5,])
+
+a = [1, [2,3],4]
+
+ecrire cap  (a)
+
+FIN

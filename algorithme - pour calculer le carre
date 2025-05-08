@@ -1,0 +1,15 @@
+
+
+DÉBUT
+    ECRIRE "ENTRE LE COTE DU CARRE"
+
+    LIRE COTE
+
+    SURFACE = COTE * 4
+
+
+    ECRIRE "LA SURFACE EST", SURFACE, "METTRE"
+
+ 
+   
+FIN

@@ -1,0 +1,49 @@
+
+- premier page en MODULE PRINCIPAL
+ 
+DÉBUT
+   
+tab =   [9,8,7,6,5,4,3,2,1,0]
+resultat  = tab
+i = 1
+TANTQUE i < COMPTER (resultat) FAIRE 
+si resultat [i] > resultat [1] ALORS
+resultat = PERMUTATION (resultat, i)
+
+i = 0
+finsi
+
+i = i + 1
+
+FINTANTQUE
+
+ecrire tab
+ecrire resultat
+
+FIN
+
+
+
+- deuxieme page 
+
+faire un clic droit sur MODULE PRINCIPAL 
+ensuite cliquer sur NOUVEAU MODULE
+pour crée un module.
+
+- une boite de dialogue va apparaitre pour nommer le module
+dans notre exemple le module sera nommer PERMUTATION
+
+
+
+\\ Module auxiliaire PERMUTATION
+
+ENTRER    tab, index
+
+tab = [index]
+tab  [index] =  tab  [index+1]
+tab  [index+1] = tmp
+
+
+RETOURNER   tab
+ 
+ 
